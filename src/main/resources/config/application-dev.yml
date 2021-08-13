@@ -1,0 +1,10 @@
+eoo:
+  logging:
+    accessFile:
+      enabled: true
+      dir: ..\..\logs\eoo-uaa
+logging:
+  file:
+    path: ..\..\logs\eoo-uaa
+  pattern:
+    rolling-file-name: ${LOG_PATH}/archive/spring.log.%d{yyyy-MM-dd}.%i.gz
